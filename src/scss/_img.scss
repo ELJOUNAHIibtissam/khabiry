@@ -1,0 +1,30 @@
+.img{
+    position: absolute!important;
+}
+
+.card-img-top {
+    position: relative!important;
+}
+
+.img-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 96px;
+
+    img {
+        padding: 5px;
+        gap: 5px;
+        border-radius: 5px;
+        background-color: transparent;
+        padding-bottom: 64px;
+    }
+
+}
+
+
+.img-fluid {
+    max-width: 100%;
+}

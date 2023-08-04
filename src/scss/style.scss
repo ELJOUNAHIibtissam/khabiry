@@ -1,0 +1,313 @@
+@import '~bootstrap/scss/bootstrap';
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
+@import '_textbox.scss';
+@import '_cardtitle.scss';
+@import '_cardbody.scss';
+@import '_img.scss';
+@import '_bouttons.scss';
+@import '_panel.scss';
+@import '_box.scss';
+@import '_col.scss';
+@import '_inputbox.scss';
+@import '_block.scss';
+@import '_nav.scss';
+@import '_background.scss';
+@import "_footer.scss";
+@import "_search.scss";
+@import "_frame.scss";
+@import "_cadre.scss";
+@import "_card.scss";
+@import '_pos.scss';
+@import '_grid.scss';
+@import '_out-card.scss';
+@import '_bg.scss';
+@import '_contenu.scss';
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../../font/Helvetica.woff2') format('woff2'),
+        url('../../font/Helvetica.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'HelveticaLight';
+    src: url('../../font/Helvetica-Light.woff2') format('woff2'),
+        url('../../font/Helvetica-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaBold';
+    src: url('../../font/Helvetica-Bold.woff2') format('woff2'),
+        url('../../font/Helvetica-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaRBold';
+    src: url('../../font/HelveticaRounded-Bold.woff2') format('woff2'),
+        url('../../font/HelveticaRounded-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaCompressed';
+    src: url('../../font/Helvetica-Compressed.woff2') format('woff2'),
+        url('../../font/Helvetica-Compressed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaOblique';
+    src: url('../../font/Helvetica-Oblique.woff2') format('woff2'),
+        url('../../font/Helvetica-Oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+body {
+    font-family: 'Helvetica';
+    margin: 0;
+    padding: 0;
+}
+
+.py-96 {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    
+}
+
+.container {
+    max-width: 1216px!important;
+
+}
+
+.card {
+    max-width: 384px;
+    border-color: transparent;
+    padding: 14px;
+}
+
+
+
+.btn-light {
+    background-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2D54DE;
+    padding-left: 16px;
+}
+
+
+.bg{
+    background: radial-gradient(90.34% 90.28% at 51.13% 42.89%, rgba(116, 255, 200, 0.51) 6.6%, rgba(204, 234, 252, 0.1785) 31.22%, rgba(217, 217, 217, 0) 48.48%);
+}
+
+.py-64 {
+    padding-top: 14px;
+    padding-bottom: 64px;
+}
+
+.py-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+
+.py-62 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.p-style{ 
+    p{
+        padding-top: 32px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #FFFFFF;
+        line-height: 28px;
+    }
+}
+   
+
+
+.py-37{
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
+.py-248 {
+    padding-top: 248px;
+    padding-bottom: 180px;
+}
+
+.f{
+    padding: 16px;
+    gap: 8px;
+    width: 356px;
+    height: 54px;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.mb-2 {
+    background: #2D54DE;
+    border-radius: 4px;
+    padding: 14px;
+    gap: 8px;
+}   
+
+
+.py-119 {
+    padding-top: 64px;
+    padding-bottom: 119px;
+}
+
+.st{
+    gap: 64px;
+    img {
+        width: 114px;
+    }
+    p{
+         
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #707070;
+    }
+
+}
+    
+
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+
+.bg-light {
+    background-color:  #F3F4F6;
+    background: url("../../img/background1.png"), url("../../img/background2.png");
+    background-position: left, right ;
+    background-repeat: no-repeat, no-repeat;
+    
+}
+
+.py-101{
+    padding-top: 120px;
+    padding-bottom: 101px;
+}
+.cadre-style {
+    max-width: 100%;
+    gap: 48px;
+    h1 {
+       padding-left: 25px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 65px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #0A2A43;
+        text-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+    }
+    p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 24px;
+        text-align: center;
+        color: #707070;
+    }
+}
+
+.py-48{
+    padding-top: 48px;
+    padding-left: 250px;
+    padding-right: 261px;
+}
+
+.stylesheet {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 48px;
+    padding-bottom: 64px;
+    .btn-primary {
+        padding: 12px 32px;
+        gap: 8px;
+        border-radius: 4px;
+        background-color: #2D54DE;
+    }
+}
+
+.pt-182 {
+    padding-top: 160px;
+}
+
+.gap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    
+}
+
+.style {
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+    align-items: normal;
+    gap: 32px;
+    background-color: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 8px;
+    img {
+        max-width: auto;
+        margin: auto;
+        padding: 5px;
+        border-radius: 7px;
+        
+      }
+    
+}
+.padding {
+    padding: 96px 0px;
+}
+
+.pad{
+    padding-top: 94px;
+    padding-bottom: 48px;
+}
+
+.py-229{
+    padding-left: 229px;
+    padding-right: 229px;
+}
+
+.backg{
+    background: url("../../img/Vector\ 18.png");
+    background-repeat: no-repeat;
+}
