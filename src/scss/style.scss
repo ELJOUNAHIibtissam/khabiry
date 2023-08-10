@@ -1,4 +1,5 @@
 @import '~bootstrap/scss/bootstrap';
+@import "~jquery-ui/dist/themes/base/jquery-ui.min";
 @import "~slick-carousel/slick/slick";
 @import "~slick-carousel/slick/slick-theme";
 @import '_textbox.scss';
@@ -308,6 +309,113 @@ body {
 }
 
 .backg{
-    background: url("../../img/Vector\ 18.png");
+    background: url("../../img/devenir\ expert.png");
     background-repeat: no-repeat;
+}
+
+.py-55{
+    padding-top: 55px;
+    padding-bottom: 96px;
+}
+
+.styling{
+    // display: flex;
+    // width: 100%;
+    padding: 96px 0px;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    gap: 64px;
+}
+
+.s-style{
+    display: flex;
+    // width: 706px;
+    align-items: flex-start;
+    gap: 32px;
+    img{
+        height: 320px;
+        
+    }
+}
+
+.switch-box{
+    display: flex;
+    padding: 12px 20px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 24px;
+    top: 4125px;
+    position: absolute;
+    right: 117px;
+    border-radius: 500px;
+    border: 1px solid #74FFC8;
+}
+
+
+
+.comentario-box{
+    display: flex !important;
+    //width: 350px;
+    padding: 32px 45px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 30px 30px 0px rgba(41, 71, 98, 0.10);
+    .text-style{
+        display: flex !important;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        align-self: stretch;
+        .profil{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            .kenza{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                h2{
+                    color:  #101828;
+                    font-family: Helvetica;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 16px;
+                }
+                h3{
+                    color: #667085;
+                    font-family: Helvetica;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 16px; 
+                }
+            }
+           
+        }
+
+        .star{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        p{
+            color: #A6A6A6;
+            font-family: Helvetica;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px; 
+        }
+    }
+}
+
+.pb-96{
+    padding-bottom: 96px;
 }
